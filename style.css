@@ -1,0 +1,76 @@
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #barGraph {
+      width: 700px;
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border: 15px solid black;
+      overflow: hidden;
+      margin-bottom: 20px;
+      background-color: black;
+    }
+
+    .bar {
+      flex-grow: 1;
+      transition: height 1s;
+    }
+
+    #bar1 {
+      background-color: purple;
+    }
+
+    #bar2 {
+      background-color: pink;
+    }
+
+    #bar3 {
+      background-color: rgb(232, 94, 115);
+    }
+
+    #bar4 {
+      background-color: orange;
+    }
+
+    #bar5 {
+      background-color: yellow;
+    }
+
+    .button-container {
+      display: flex;
+    }
+
+    button {
+      padding: 10px;
+      margin: 30px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .start {
+      background-color: #4CAF50; /* Green for Start button */
+    }
+
+    .reset {
+      background-color: purple; /* Purple for Reset button */
+    }
+
+    .stop {
+      background-color: #e74c3c; /* Red for Stop button */
+    }
+
+     button:hover {
+      background-color: #45a049; /* Darker green color on hover */
+     }
+  
